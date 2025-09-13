@@ -8,7 +8,7 @@ echo "========================================="
 
 # Pull and run the Docker container
 echo "Starting Docker container..."
-docker run --rm -it n132/arvo:51132-fix bash -c '
+docker run --rm -it n132/arvo:65933-fix bash -c '
 echo "Installing dependencies..."
 apt-get update -qq
 apt-get install -y libc6-dev libpthread-stubs0-dev build-essential swig python3-pip gcc g++ > /dev/null 2>&1
